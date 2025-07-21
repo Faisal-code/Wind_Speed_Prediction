@@ -1,1 +1,4 @@
-![Model Architecture](https://github.com/user-attachments/assets/4faa0398-ed89-4d40-be38-a0759da13e48)Note: This repository is part of an ongoing project. At this stage, we are sharing selected portions of the codebase and a sample of the dataset. The complete source code and full private dataset will be made publicly available after the project's completion.
+Note: This repository is part of an ongoing project. At this stage, we are sharing selected portions of the codebase and a sample of the dataset. The complete source code and full private dataset will be made publicly available after the project's completion.
+
+<B> Model architecture<B>
+![Model Architecture](https://github.com/user-attachments/assets/4faa0398-ed89-4d40-be38-a0759da13e48)
