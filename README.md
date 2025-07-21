@@ -10,10 +10,17 @@ The figure represents the end-to-end pipeline for the proposed VAE-S2S-BiLSTM-En
 <B> 1. Data Preprocessing <B> 
 • Inputs: Raw multivariate time series data consisting of temperature, humidity, wind speed, and power from Beijing’s weather.
 
-• Operations:
+•<B>  Operations: <B> 
 
-    - Data cleaning: Removes noise and missing values.
-
-    - Normalization: Uses Min-Max scaling to rescale all variables to a 0–1 range.
-    - Temporal aggregation: Features like daily, weekly, monthly patterns are extracted.
+    * Data cleaning: Removes noise and missing values.
+    * Normalization: Uses Min-Max scaling to rescale all variables to a 0–1 range.
+    * Temporal aggregation: Features like daily, weekly, monthly patterns are extracted.
     - Visualization: Heatmaps, line plots, and box plots are used to capture seasonal patterns and detect outliers.
+<B> 2. Feature Engineering <B> 
+Purpose: Capture meaningful temporal dependencies and hidden correlations among variables.
+
+•<B> Techniques: <B> 
+
+* Seasonal and trend pattern analysis.
+* Box plots and correlation heatmaps to explore dependencies between variables.
+* Weekly and quarterly aggregations for modeling long-term trends
