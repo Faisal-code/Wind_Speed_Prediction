@@ -15,7 +15,7 @@ The figure represents the end-to-end pipeline for the proposed VAE-S2S-BiLSTM-En
     * Data cleaning: Removes noise and missing values.
     * Normalization: Uses Min-Max scaling to rescale all variables to a 0–1 range.
     * Temporal aggregation: Features like daily, weekly, monthly patterns are extracted.
-    - Visualization: Heatmaps, line plots, and box plots are used to capture seasonal patterns and detect outliers.
+    * Visualization: Heatmaps, line plots, and box plots are used to capture seasonal patterns and detect outliers.
 <B> 2. Feature Engineering <B> 
 Purpose: Capture meaningful temporal dependencies and hidden correlations among variables.
 
