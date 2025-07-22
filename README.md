@@ -1,7 +1,7 @@
- Note:  This repository is part of an ongoing project. At this stage, we are sharing selected portions of the codebase and a sample of the dataset. The complete source code and full private dataset will be made publicly available after the project's completion.
+ <B> Note: </B> This repository is part of an ongoing project. At this stage, we are sharing selected portions of the codebase and a sample of the dataset. The complete source code and full private dataset will be made publicly available after the project's completion.
 
 
- Model Architecture <B>
+ Model Architecture 
 The figure represents the end-to-end pipeline for the proposed VAE-S2S-BiLSTM-Encoder-Decoder model for short-term wind speed prediction. The architecture includes the following stages:
 
 
