@@ -9,7 +9,7 @@ The figure represents the end-to-end pipeline for the proposed VAE-S2S-BiLSTM-En
 
 * Inputs: Raw multivariate time series data consisting of temperature, humidity, wind speed, and power from Beijing’s weather.
 
- <B> Operations  </B> 
+ <B> Operations:  </B> 
  
   * Data cleaning: Removes noise and missing values.
   * Normalization: Uses Min-Max scaling to rescale all variables to a 0 to 1 range.
@@ -25,5 +25,13 @@ The figure represents the end-to-end pipeline for the proposed VAE-S2S-BiLSTM-En
  <B> •Techniques:  </B> 
 
 * Seasonal and trend pattern analysis.
- Box plots and correlation heatmaps to explore dependencies between variables.
-* Weekly and quarterly aggregations for modeling long-term trends
+* Box plots and correlation heatmaps to explore dependencies between variables.
+* Weekly and quarterly aggregations for modeling long-term trends.
+
+<B> 3. Variational AutoEncoder (VAE) Module </B>
+* Encoder: Maps high-dimensional input features into a probabilistic latent space 𝑧 using neural networks.
+* Latent Space Sampling: Uses mean and variance to generate latent variables via the reparameterization trick.
+* Decoder: Reconstructs the original data from latent representations, learning abstract and nonlinear features.
+
+🔹 The VAE addresses dimensionality reduction, overfitting, and nonlinearity.  
+
