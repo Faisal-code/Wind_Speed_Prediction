@@ -57,6 +57,7 @@ Capable of capturing long- and short-term dependencies simultaneously.
 🔹 This is the final architecture used in the Wind Speed Prediction App.
 
 <B> 5. Output Layer </B>
+
 Produces predicted values for wind speed.
 
 Evaluated using metrics like MAE, MSE, RMSE, MAPE, NMSE, and R².
