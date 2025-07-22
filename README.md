@@ -50,7 +50,7 @@ The latent features from VAE are passed into various prediction models:
 
 * Processes the input sequence forward and backwards, capturing both past and future dependencies.
 
-✅ S2S-BiLSTM Encoder-Decoder (Proposed Core Model)
+✅ S2S-BiLSTM Encoder-Decoder
 
 * Integrates the strengths of bidirectional LSTM and sequence-to-sequence modeling.
 
