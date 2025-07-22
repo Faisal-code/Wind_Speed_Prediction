@@ -48,19 +48,19 @@ Learns to encode a sequence and decode it into another sequence. Suitable for mu
 Processes the input sequence forward and backwards, capturing both past and future dependencies.
 
 ✅ S2S-BiLSTM Encoder-Decoder (Proposed Core Model)
-Integrates the strengths of bidirectional LSTM and sequence-to-sequence modeling.
+* Integrates the strengths of bidirectional LSTM and sequence-to-sequence modeling.
 
-Supports multi-step and multi-feature time series prediction.
+* Supports multi-step and multi-feature time series prediction.
 
-Capable of capturing long- and short-term dependencies simultaneously.
+* Capable of capturing long- and short-term dependencies simultaneously.
 
 🔹 This is the final architecture used in the Wind Speed Prediction App.
 
 <B> 5. Output Layer </B>
 
-Produces predicted values for wind speed.
+* Produces predicted values for wind speed.
 
-Evaluated using metrics like MAE, MSE, RMSE, MAPE, NMSE, and R².
+* Evaluated using metrics like MAE, MSE, RMSE, MAPE, NMSE, and R².
 
 
 
