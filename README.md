@@ -22,7 +22,7 @@ The figure represents the end-to-end pipeline for the proposed VAE-S2S-BiLSTM-En
   <B>  2. Feature Engineering  </B>  
 * Purpose: Capture meaningful temporal dependencies and hidden correlations among variables.
 
- <B> •Techniques:  </B> 
+ <B> Techniques:  </B> 
 
 * Seasonal and trend pattern analysis.
 * Box plots and correlation heatmaps to explore dependencies between variables.
@@ -35,3 +35,25 @@ The figure represents the end-to-end pipeline for the proposed VAE-S2S-BiLSTM-En
 
 🔹 The VAE addresses dimensionality reduction, overfitting, and nonlinearity.  
 
+<B> 4. Prediction Module – Deep Learning Models </B>
+The latent features from VAE are passed into various prediction models:
+
+✅ Standard LSTM
+Learns from sequential data, but processes information in a unidirectional manner.
+
+✅ S2S LSTM Encoder-Decoder
+Learns to encode a sequence and decode it into another sequence.
+
+Suitable for multi-step forecasting.
+
+✅ BiLSTM
+Processes the input sequence forward and backwards, capturing both past and future dependencies.
+
+✅ S2S-BiLSTM Encoder-Decoder (Proposed Core Model)
+Integrates the strengths of bidirectional LSTM and sequence-to-sequence modeling.
+
+Supports multi-step and multi-feature time series prediction.
+
+Capable of capturing long- and short-term dependencies simultaneously.
+
+🔹 This is the final architecture used in the Wind Speed Prediction App.
