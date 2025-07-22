@@ -42,9 +42,7 @@ The latent features from VAE are passed into various prediction models:
 Learns from sequential data, but processes information in a unidirectional manner.
 
 ✅ S2S LSTM Encoder-Decoder
-Learns to encode a sequence and decode it into another sequence.
-
-Suitable for multi-step forecasting.
+Learns to encode a sequence and decode it into another sequence. Suitable for multi-step forecasting.
 
 ✅ BiLSTM
 Processes the input sequence forward and backwards, capturing both past and future dependencies.
